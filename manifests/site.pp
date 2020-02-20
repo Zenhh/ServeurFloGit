@@ -14,3 +14,4 @@ node toto{
    ensure => installed,
    provider => pip3
    } 
+}
