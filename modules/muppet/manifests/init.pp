@@ -16,7 +16,6 @@ class muppet {
     file { '/home/kermit':
       ensure => directory,
       owner => 'kermit',
-      group => 'group',
       before => File['/home/kermit/.profile'],
     } 
     
