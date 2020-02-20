@@ -1,7 +1,9 @@
 node default {  
   notify {'Hello from Puppet Server!':}
-}
+  }
 
 node agent-muppet {
-  include muppet
+  class{muppet:
+    puppet_name => "123"
+  }
 }
