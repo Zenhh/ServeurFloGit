@@ -2,6 +2,6 @@ node default {
   notify {'Hello from Puppet Server!':}
 }
 
-node angent-muppet {
+node agent-muppet {
   include muppet
 }
